@@ -1,7 +1,4 @@
-#header{
-  
-}
-
+/*
 #navegacion ul li{
     color: aliceblue;
     list-style: none;
@@ -13,4 +10,25 @@
     color: aliceblue;
 }
 
+*/
 
+#navegacion{
+    height: 50px;
+}
+
+#navegacion ul{
+    list-style: none;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.item{
+    height: 150px;
+}
+
+.img1{
+    padding: 10px;
+    width: 190px;
+    height: 150px;
+    
+}
