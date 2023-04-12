@@ -1,36 +1,16 @@
-#menu{
-    height: 50px;
-    
+#header{
+  
 }
-#menu ul{
-    text-decoration: none;
+
+#navegacion ul li{
+    color: aliceblue;
     list-style: none;
-    line-height: 10px;
+    float: left;
     padding: 15px;
-    
 }
 
-#menu li a {
-    color: beige;
-        
+#navegacion ul li a{
+    color: aliceblue;
 }
 
-section{
-    display: flex;
-    width: 600px;
 
-}
-section img{
-    /*width: 0px;*/
-    flex-grow: 1px;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-section img:hover{
-    cursor: pointer;
-    opacity: 1;
-    width: 350px;
-    filter: contrast(120%);
-    transition: 5s all;
-}
